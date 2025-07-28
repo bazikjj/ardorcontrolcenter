@@ -8,11 +8,22 @@ I noticed that Tuxedo Control Center is ideal for laptops from Ardor and Kelvo a
 Quick install for arch:
 
 sudo pacman -S --needed git base-devel
+
+Install yay
+```
 git clone https://aur.archlinux.org/yay.git
 cd yay
 makepkg -si
+```
+Update yay
+```
 yay -Syu
+```
+Install all tools
+```
 yay -S tuxedo-control-center-bin tuxedo-drivers-dkms linux-headers
-
+```
 Tuxedo tools (optional)
+```
 yay -S tuxedo-webfai-creator-bin
+```
